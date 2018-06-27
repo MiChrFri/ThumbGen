@@ -22,7 +22,7 @@ pod 'ThumbGen'
 
 ## Author
 
-michaelCfrick, michaelfrick@thoughtworks.com
+michaelCfrick, michael.christian.frick@gmail.com
 
 ## License
 
