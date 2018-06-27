@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ThumbGen
+//import ThumbGen
 
 class ViewController: UIViewController {
 

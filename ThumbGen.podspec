@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ThumbGen'
   s.version          = '0.1.0'
+  s.swift_version    = '4.1'
   s.summary          = 'Use ThumbGen.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +22,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-    s.homepage         = 'https://github.com/michaelCfrick/ThumbGen'
+    s.homepage         = 'https://github.com/MiChrFri/ThumbGen'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'michaelCfrick' => 'michael.christian.frick@gmail.com' }
-    s.source           = { :git => 'https://github.com/michaelCfrick/ThumbGen.git', :tag => s.version.to_s }
+    s.author           = { 'MiChrFri' => 'michael.christian.frick@gmail.com' }
+    s.source           = { :git => 'https://github.com/MiChrFri/ThumbGen.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/MichaelCFrick'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ThumbGen/Classes/**/*'
+#s.source_files = 'ThumbGen/*'
+   s.source_files = 'ThumbGen/Classes/**/*'
+  #s.source_files = 'ThumbGen/**/*'
   
   # s.resource_bundles = {
   #   'ThumbGen' => ['ThumbGen/Assets/*.png']
@@ -39,4 +42,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  
+  
 end
